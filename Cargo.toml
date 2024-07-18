@@ -21,6 +21,5 @@ axlog = { git = "https://github.com/Starry-OS/axlog.git" }
 axtask = { git = "https://github.com/Starry-OS/axtask.git" }
 axerrno = { git = "https://github.com/Starry-OS/axerrno.git" }
 axsync = {git = "https://github.com/Starry-OS/axsync.git"}
-axprocess = { git = "https://github.com/Starry-OS/axprocess.git" }
 hashbrown = "0.11"
 lazy_static = "1.5.0"

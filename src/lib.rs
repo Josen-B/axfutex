@@ -5,7 +5,6 @@
 extern crate alloc;
 
 pub mod flags;
-mod core;
-pub mod waitwake;
-mod futex;
+pub mod queues;
+pub mod futex;
 mod jhash;

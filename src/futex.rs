@@ -27,7 +27,7 @@ impl FutexQ {
 /// The key type depends on whether it's a shared or private mapping.
 /// use pid to replace the mm_struct pointer
 /// **only support private futex now**
-#[derive(Copy, Clone, Default, Ord, PartialOrd, Eq, PartialEq)]
+#[derive(Copy, Clone, Default, Ord, PartialOrd, Eq, PartialEq, Debug)]
 pub struct FutexKey {
     /// use pid to replace the mm_struct pointer to distinguish different processes
     /// only support private futex now
